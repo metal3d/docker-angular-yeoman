@@ -3,7 +3,7 @@ MAINTAINER Patrice FERLET <metal3d@gmail.com>
 
 # to be able to use --user, node need to write 
 # data to $HOME, but using root will break that possibility, so 
-# use /tmp instead
+# use /project instead
 ENV HOME /project
 WORKDIR /project
 EXPOSE 9000 35729
